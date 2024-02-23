@@ -2,17 +2,17 @@
 
 $lines = 10;
 
-$starCount = $lines;
+// $starCount = $lines;
 
-$initialPoint = 1;
+// $initialPoint = 1;
 
-$lastPoint = $lines;
+// $lastPoint = $lines;
 
 //$spaceCount;
 
 for($i = 1; $i <= $lines ; $i++){
-    for($j = 1; $j <= $starCount ; $j++){
-        if(($i == $initialPoint || $i == $lastPoint) || ($j == $initialPoint || $j == $lastPoint)){
+    for($j = 1; $j <= $lines ; $j++){
+        if(($i == 1 || $j == 1) || ($i == $lines || $j == $lines)){
             echo "*";
         }
         else{
