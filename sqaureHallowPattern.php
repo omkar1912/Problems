@@ -1,6 +1,6 @@
 <?php
 
-$lines = 10;
+$lines = 5;
 
 // $starCount = $lines;
 
@@ -13,10 +13,10 @@ $lines = 10;
 for($i = 1; $i <= $lines ; $i++){
     for($j = 1; $j <= $lines ; $j++){
         if(($i == 1 || $j == 1) || ($i == $lines || $j == $lines)){
-            echo "*";
+            echo "*&nbsp;&nbsp;";
         }
         else{
-            echo "&nbsp;&nbsp;";
+            echo "&nbsp;&nbsp;&nbsp;&nbsp;";
         }
     }
     echo "<br/>";
