@@ -30,15 +30,9 @@ for($i = 1 ; $i <= $lines ; $i++){
             echo "*&nbsp;";
         }
         else{
-            if($i == $mid){
-                echo $innerSpaceCount."&nbsp;";
-                $innerSpaceCount++;
-            }
-            else{
                 echo "&nbsp;&nbsp;&nbsp;"; 
             }
             
-        }
     }
     echo "<br/>";
     if($i < $mid){
