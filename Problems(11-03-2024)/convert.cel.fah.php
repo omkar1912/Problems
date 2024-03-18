@@ -9,11 +9,11 @@
         }
         else{
             echo "The temperature Cannot be Empty<br/>";
-            header( 'Location: degrees-celcius-fah.html' ) ;
+            header( 'Location: degree-celcius-fah.html' ) ;
         }
     }
     else{
-        die(header("Location: degrees-celcius-fah.html"));
+        die(header("Location: degree-celcius-fah.html"));
     }
 
     function calculateTemperature($temperature,$keyWord){
