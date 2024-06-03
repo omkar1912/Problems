@@ -27,7 +27,7 @@ function printImprovedPattern($n){
     }
     
 }
-echo printImprovedPattern(-5);
+echo printImprovedPattern(5);
 // function printPattern($n){
 
 //         if($n <= 0){
